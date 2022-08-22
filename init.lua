@@ -14,6 +14,9 @@ return {
         end,
       },
 
+      -- Gruvbox 
+      {"ellisonleao/gruvbox.nvim"},
+
       -- Zen Mode
       {
         "folke/zen-mode.nvim",
