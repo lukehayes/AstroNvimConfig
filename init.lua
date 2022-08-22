@@ -2,10 +2,10 @@ return {
   plugins = {
     init = {
 
-      -- Additional Plugins
+      -- Colorschemes
       -- 
       -- 
-      -- Catpuccin Colorscheme
+      -- Catpuccin 
       {
         "catppuccin/nvim",
         as = "catppuccin",
@@ -17,13 +17,16 @@ return {
       -- Gruvbox 
       {"ellisonleao/gruvbox.nvim"},
 
+      -- Additional Plugins
+      -- 
+      -- 
       -- Zen Mode
       {
         "folke/zen-mode.nvim",
         config = function()
           require("zen-mode").setup {
             window = {
-              width = 180
+              width = 80
             }
           }
         end
