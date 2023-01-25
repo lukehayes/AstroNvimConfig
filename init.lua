@@ -1,54 +1,57 @@
 return {
-  plugins = {
-    init = {
+    plugins = {
+        init = {
 
-      -- Colorschemes
-      -- 
-      -- 
-      -- Catpuccin 
-      {
-        "catppuccin/nvim",
-        as = "catppuccin",
-        config = function()
-          require("catppuccin").setup {}
-        end,
-      },
+            -- Colorschemes
+            -- 
+            -- 
+            -- Catpuccin 
+            {
+                "catppuccin/nvim",
+                as = "catppuccin",
+                config = function()
+                    require("catppuccin").setup {}
+                end,
+            },
 
-      -- Gruvbox 
-      {"ellisonleao/gruvbox.nvim"},
+            -- Gruvbox 
+            {"ellisonleao/gruvbox.nvim"},
 
-      -- Additional Plugins
-      -- 
-      -- 
-      -- Zen Mode
-      {
-        "folke/zen-mode.nvim",
-        config = function()
-          require("zen-mode").setup {
-            window = {
-              width = 80
+            -- Additional Plugins
+            -- 
+            -- 
+            -- Zen Mode
+            {
+                "folke/zen-mode.nvim",
+                config = function()
+                    require("zen-mode").setup {
+                        window = {
+                            width = 80
+                        }
+                    }
+                end
+            },
+        },
+
+        -- Default Plugin Customization
+        -- 
+        -- 
+        ["neo-tree"] = {
+            filesystem = {
+                follow_current_file = false
             }
-          }
-        end
-      },
+        },
+
+        ["notify"] = {
+            stage = "static",
+        }
     },
 
-    -- Default Plugin Customization
-    -- 
-    -- 
-    ["neo-tree"] = {
-      filesystem = {
-        follow_current_file = false
-      }
+    lsp = {
+        formatting = {
+            format_on_save = false, -- enable or disable automatic formatting on save
+        },
     },
 
-    ["notify"] = {
-      stage = "static"
-    }
-  },
-  lsp = {
-    formatting = {
-      format_on_save = false, -- enable or disable automatic formatting on save
-    },
-  }
+
 }
