@@ -44,6 +44,7 @@ return {
 
         ["notify"] = {
             stage = "static",
+            timeout = 1000 -- time until notification closes - in milliseconds
         }
     },
 
