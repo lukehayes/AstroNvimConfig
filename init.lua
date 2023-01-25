@@ -53,5 +53,8 @@ return {
         },
     },
 
+    polish = function()
+         --Final setup can happen here.
+    end
 
 }
