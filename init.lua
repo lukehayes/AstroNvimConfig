@@ -2,10 +2,10 @@ return {
     plugins = {
         init = {
 
-            -- Colorschemes
-            -- 
-            -- 
-            -- Catpuccin 
+            -- Colorschemes DARK
+            --
+            --
+            -- Catpuccin
             {
                 "catppuccin/nvim",
                 as = "catppuccin",
@@ -16,6 +16,24 @@ return {
 
             -- Gruvbox 
             {"ellisonleao/gruvbox.nvim"},
+
+            -- Colorschemes LIGHT
+            --
+            --
+            -- Acme
+            {"plan9-for-vimspace/acme-colors"},
+
+            -- Rusticated
+            {"d00h/nvim-rusticated"},
+
+            -- ZenBones/ZenWritten
+            {"mcchrish/zenbones.nvim"},
+
+            -- Vim Paper
+            {"yorickpeterse/vim-paper"},
+
+            -- Rose Pine
+            {"rose-pine/neovim"},
 
             -- Additional Plugins
             -- 
