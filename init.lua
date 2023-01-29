@@ -35,6 +35,10 @@ return {
             -- Rose Pine
             {"rose-pine/neovim"},
 
+            { 'rktjmp/lush.nvim' }, -- Needed for Zenbones themes.
+
+            {"mg979/vim-visual-multi"}, -- Multi cursor editing.
+
             -- Additional Plugins
             -- 
             -- 
