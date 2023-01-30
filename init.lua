@@ -27,7 +27,8 @@ return {
             {"d00h/nvim-rusticated"},
 
             -- ZenBones/ZenWritten
-            {"mcchrish/zenbones.nvim"},
+            -- {"mcchrish/zenbones.nvim"},
+            -- { 'rktjmp/lush.nvim' }, -- Required by Zenbones theme.
 
             -- Vim Paper
             {"yorickpeterse/vim-paper"},
@@ -35,7 +36,6 @@ return {
             -- Rose Pine
             {"rose-pine/neovim"},
 
-            { 'rktjmp/lush.nvim' }, -- Needed for Zenbones themes.
 
             {"mg979/vim-visual-multi"}, -- Multi cursor editing.
 
