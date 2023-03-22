@@ -1,4 +1,7 @@
 return {
+
+    colorscheme = "rose-pine",
+
     plugins = {
         init = {
 
