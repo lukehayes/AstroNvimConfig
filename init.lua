@@ -2,6 +2,12 @@ return {
 
     colorscheme = "rose-pine",
 
+    options = {
+        g = {
+            zenbones_compat = 1
+        }
+    },
+
     plugins = {
         init = {
 
@@ -30,8 +36,8 @@ return {
             {"d00h/nvim-rusticated"},
 
             -- ZenBones/ZenWritten
-            -- {"mcchrish/zenbones.nvim"},
-            -- { 'rktjmp/lush.nvim' }, -- Required by Zenbones theme.
+             {"mcchrish/zenbones.nvim"},
+             --{ 'rktjmp/lush.nvim' }, -- Required by Zenbones theme.
 
             -- Vim Paper
             {"yorickpeterse/vim-paper"},
@@ -81,6 +87,7 @@ return {
 
     polish = function()
          --Final setup can happen here.
-    end
 
+        vim.g.zenbones_compat = 1 -- Make zenbones themes actually work
+    end,
 }
