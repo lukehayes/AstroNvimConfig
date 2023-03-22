@@ -26,6 +26,9 @@ return {
             -- Gruvbox 
             {"ellisonleao/gruvbox.nvim"},
 
+            -- Nightfox - dark and light themes
+            {'EdenEast/nightfox.nvim'},
+
             -- Colorschemes LIGHT
             --
             --
