@@ -29,6 +29,13 @@ return {
             -- Nightfox - dark and light themes
             {'EdenEast/nightfox.nvim'},
 
+            -- Nvim-Quantum
+            {'mastertinner/nvim-quantum',
+              config = function() 
+                  require('quantum').setup() 
+              end
+            },
+
             -- Colorschemes LIGHT
             --
             --
