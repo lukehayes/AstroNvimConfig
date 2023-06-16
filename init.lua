@@ -29,6 +29,9 @@ return {
             -- Nightfox - dark and light themes
             {'EdenEast/nightfox.nvim'},
 
+            -- Solarized theme
+            {'ishan9299/nvim-solarized-lua'},
+
             -- Nvim-Quantum
             {'mastertinner/nvim-quantum',
               config = function() 
