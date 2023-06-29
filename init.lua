@@ -32,6 +32,32 @@ return {
             -- Solarized theme
             {'ishan9299/nvim-solarized-lua'},
 
+            -- LunarVim One Darker
+            {'Lunarvim/onedarker.nvim'},
+
+            -- Eva01
+            {'hachy/eva01.vim'},
+
+            -- Neon
+            {'rafamadriz/neon'},
+
+            -- Boo
+            {'rockerBOO/boo-colorscheme-nvim'},
+
+            -- Palenight Fall
+            {'JoosepAlviste/palenightfall.nvim'},
+
+           -- Poimandres
+            {'olivercederborg/poimandres.nvim'},
+
+            -- Doom One
+            {'NTBBloodbath/doom-one.nvim'},
+
+            -- Nightfly
+            {"bluz71/vim-nightfly-colors", as = "nightfly"},
+
+            {"savq/melange-nvim"},
+
             -- Nvim-Quantum
             {'mastertinner/nvim-quantum',
               config = function() 
